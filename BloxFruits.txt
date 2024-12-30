@@ -17,11 +17,12 @@ local Tab = { -- CREATE TABS
     Tab_5 = Window:addTab('#Teleport & Status'),
     Tab_6 = Window:addTab('#Shop'),
     Tab_7 = Window:addTab('#Misc')
+    Tab_8 = Window:addTab('#Credits')
     
 }
 
 local Home_Left = Tab.Tab_1:addSection() -- HOME LEFT SECTION
-local Changelog = Home_Left:addMenu("#Changelog")
+local Changelog = Home_Left:addMenu("#YENI GELENLER")
 Changelog:addChangelog('[December, 26 2024]')
 Changelog:addChangelog('- Fixed Auto Collect Gift')
 Changelog:addChangelog('- Fixed Auto Store Gift')
